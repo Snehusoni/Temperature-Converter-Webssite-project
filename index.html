@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature conveter</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+    <div class="container">
+        <h1>Temperature coneter</h1>
+        <label for="Temperature">Enter Temperature:</label>
+        <input type="number" id="Temperature" placeholder="e.g. 25">
+
+        <label for="unit">select unit:</label>
+
+        <select id="unit">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheilt">fahrenheilt</option>
+        </select>
+        <button onclick="convertTemperature()">convert</button>
+        <div class="result" id="result"></div>
+    </div>
+     <script src="script.js"></script>
+</body>
+</html>
